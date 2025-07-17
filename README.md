@@ -26,18 +26,13 @@ Before building this project, make sure you have the following installed:
    ```cmd
    cd path\to\k4a_recorder_epoch_timestamp
    ```
-3. Create and navigate to build directory:
+3. Build the project:
    ```cmd
-   mkdir build
-   cd build
+   cmake -Bbuild
    ```
-4. Configure the project with CMake:
+4. Compile the project:
    ```cmd
-   cmake ..
-   ```
-5. Build the project:
-   ```cmd
-   cmake --build . --config Release
+   cmake --build --config Release
    ```
 
 ### Linux
@@ -47,20 +42,15 @@ Before building this project, make sure you have the following installed:
    ```bash
    cd /path/to/k4a_recorder_epoch_timestamp
    ```
-3. Create and navigate to build directory:
+3. Build the project:
    ```bash
-   mkdir build
-   cd build
+   cmake -Bbuild
    ```
-4. Configure the project with CMake:
-   ```bash
-   cmake ..
-   ```
-5. Build the project:
+4. Compile the project:
    ```bash
    make -j$(nproc)
    ```
-
+   
 ## Running the Application
 
 ### Basic Usage
