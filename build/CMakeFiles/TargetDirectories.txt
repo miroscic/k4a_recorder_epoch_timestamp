@@ -1,4 +1,0 @@
-C:/mirrorworld/k4a_recorder_epoch_timestamp/build/CMakeFiles/k4arecorder.dir
-C:/mirrorworld/k4a_recorder_epoch_timestamp/build/CMakeFiles/INSTALL.dir
-C:/mirrorworld/k4a_recorder_epoch_timestamp/build/CMakeFiles/ALL_BUILD.dir
-C:/mirrorworld/k4a_recorder_epoch_timestamp/build/CMakeFiles/ZERO_CHECK.dir
