@@ -1,0 +1,10 @@
+^C:\MIRRORWORLD\K4A_RECORDER_EPOCH_TIMESTAMP\BUILD\CMAKEFILES\3BB1B4306687A80A73F435CF5E59262B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/mirrorworld/k4a_recorder_epoch_timestamp -BC:/mirrorworld/k4a_recorder_epoch_timestamp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/mirrorworld/k4a_recorder_epoch_timestamp/build/k4arecorder.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

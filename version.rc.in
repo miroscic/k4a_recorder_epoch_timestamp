@@ -1,0 +1,34 @@
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+FILEFLAGSMASK   0x3fL
+#ifdef _DEBUG
+FILEFLAGS       0x1L
+#else
+FILEFLAGS       0x0L
+#endif
+FILEOS          0x40004L
+FILETYPE        0x1L
+FILESUBTYPE     0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName",      "Microsoft Corporation"
+            VALUE "FileDescription", "@K4A_FILEDESCRIPTION@"
+            VALUE "FileVersion",     "1.0.0.0"
+            VALUE "InternalName",    "@K4A_ORIGINALFILENAME@"
+            VALUE "LegalCopyright",  "Copyright (c) Microsoft Corporation. All rights reserved."
+            VALUE "OriginalFilename","@K4A_ORIGINALFILENAME@"
+            VALUE "ProductName",     "Azure Kinect SDK"
+            VALUE "ProductVersion",  "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

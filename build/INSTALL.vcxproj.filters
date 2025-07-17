@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\mirrorworld\k4a_recorder_epoch_timestamp\build\CMakeFiles\3bb1b4306687a80a73f435cf5e59262b\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{753CDC6A-C4A3-37BD-977C-36D210E0E68E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
