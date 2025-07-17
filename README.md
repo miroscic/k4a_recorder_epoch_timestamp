@@ -130,9 +130,9 @@ k4arecorder --device 0 --external-sync master --color-mode 720p --depth-mode WFO
 
 ## Output Files
 
-The application generates two files:
+The application generates two files with the same filename but different extension:
 1. **recording.mkv** - The main video recording in Matroska format
-2. **recording_timestamps.json** - A JSON file containing epoch timestamps for each frame
+2. **recording.json** - A JSON file containing epoch timestamps for each frame
 
 ## Troubleshooting
 
