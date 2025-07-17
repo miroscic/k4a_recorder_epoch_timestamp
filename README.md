@@ -156,7 +156,7 @@ The application generates two files with the same filename but different extensi
 ### Linux Specific
 - Install the Azure Kinect SDK packages:
   ```bash
-  # Ubuntu/Debian
+  # Ubuntu 18
   sudo apt install libk4a1.4-dev libk4arecord1.4-dev
   ```
 - Set up udev rules for device access without sudo (refer to Azure Kinect SDK documentation)
