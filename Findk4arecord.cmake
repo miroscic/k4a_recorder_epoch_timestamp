@@ -10,9 +10,11 @@
 find_path(k4arecord_INCLUDE_DIR
     NAMES k4arecord/record.h
     PATHS
+        "C:/Program Files/Azure Kinect SDK v1.4.2/sdk/include"
         "C:/Program Files/Azure Kinect SDK v1.4.1/sdk/include"
         "C:/Program Files/Azure Kinect SDK v1.4.0/sdk/include"
         "$ENV{KINECT_AZURE_SDK}/sdk/include"
+        "$ENV{ProgramFiles}/Azure Kinect SDK v1.4.2/sdk/include"
         "$ENV{ProgramFiles}/Azure Kinect SDK v1.4.1/sdk/include"
         "$ENV{ProgramFiles}/Azure Kinect SDK v1.4.0/sdk/include"
         /usr/include
@@ -24,9 +26,11 @@ find_path(k4arecord_INCLUDE_DIR
 find_library(k4arecord_LIBRARY
     NAMES k4arecord
     PATHS
+        "C:/Program Files/Azure Kinect SDK v1.4.2/sdk/windows-desktop/amd64/release/lib"
         "C:/Program Files/Azure Kinect SDK v1.4.1/sdk/windows-desktop/amd64/release/lib"
         "C:/Program Files/Azure Kinect SDK v1.4.0/sdk/windows-desktop/amd64/release/lib"
         "$ENV{KINECT_AZURE_SDK}/sdk/windows-desktop/amd64/release/lib"
+        "$ENV{ProgramFiles}/Azure Kinect SDK v1.4.2/sdk/windows-desktop/amd64/release/lib"
         "$ENV{ProgramFiles}/Azure Kinect SDK v1.4.1/sdk/windows-desktop/amd64/release/lib"
         "$ENV{ProgramFiles}/Azure Kinect SDK v1.4.0/sdk/windows-desktop/amd64/release/lib"
         /usr/lib
@@ -40,9 +44,11 @@ if(WIN32)
     find_file(k4arecord_DLL
         NAMES k4arecord.dll
         PATHS
+            "C:/Program Files/Azure Kinect SDK v1.4.2/sdk/windows-desktop/amd64/release/bin"
             "C:/Program Files/Azure Kinect SDK v1.4.1/sdk/windows-desktop/amd64/release/bin"
             "C:/Program Files/Azure Kinect SDK v1.4.0/sdk/windows-desktop/amd64/release/bin"
             "$ENV{KINECT_AZURE_SDK}/sdk/windows-desktop/amd64/release/bin"
+            "$ENV{ProgramFiles}/Azure Kinect SDK v1.4.2/sdk/windows-desktop/amd64/release/bin"
             "$ENV{ProgramFiles}/Azure Kinect SDK v1.4.1/sdk/windows-desktop/amd64/release/bin"
             "$ENV{ProgramFiles}/Azure Kinect SDK v1.4.0/sdk/windows-desktop/amd64/release/bin"
         DOC "Path to k4arecord DLL"
@@ -83,5 +89,5 @@ endif()
 mark_as_advanced(
     k4arecord_INCLUDE_DIR
     k4arecord_LIBRARY
-    k4arecord_DLL
+    k4arecord_DLL
 )

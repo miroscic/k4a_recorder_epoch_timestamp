@@ -32,7 +32,7 @@ Before building this project, make sure you have the following installed:
    ```
 4. Compile the project:
    ```cmd
-   cmake --build --config Release
+   cmake --build build --config Release
    ```
 
 ### Linux
